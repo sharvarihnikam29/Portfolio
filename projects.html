@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharvari Nikam | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CSS-only dark/light mode toggle. -->
+  <input class="theme-checkbox" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+  
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle Navigation Sidebar">
+  <label for="menu-toggle" class="sidebar-overlay"></label>
+
+  <div class="site-shell">
+    <header class="top-nav glass-panel">
+      
+      <div class="nav-left-group">
+        <label for="menu-toggle" class="hamburger-trigger" title="Open Menu">
+          <i class='bx bx-menu'></i>
+        </label>
+        
+        <a class="brand" href="#home">
+          <span class="brand-mark">SN</span>
+          <span>Sharvari Nikam</span>
+        </a>
+      </div>
+
+      <label class="theme-toggle" for="theme-toggle" title="Toggle dark mode">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        <span class="toggle-text">Theme</span>
+      </label>
+    </header>
+
+    <aside class="navigation-sidebar glass-panel">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-mark">SN</span>
+          <span>Menu</span>
+        </div>
+        <label for="menu-toggle" class="sidebar-close-btn">
+          <i class='bx bx-x'></i>
+        </label>
+      </div>
+
+      <nav class="sidebar-nav-links">
+        <a href="index.html" class="sidebar-link"><i class='bx bx-home-alt-2'></i> <span>Home</span></a>
+        <a href="about.html" class="sidebar-link"><i class='bx bx-user'></i> <span>About</span></a>
+        <a href="skill.html" class="sidebar-link"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+        <a href="projects.html" class="sidebar-link"><i class='bx bx-folder'></i> <span>Projects</span></a>
+        <a href="journey.html" class="sidebar-link"><i class='bx bx-git-repo-forked'></i> <span>Journey</span></a>
+        <a href="#contact" class="sidebar-link"><i class='bx bx-envelope'></i> <span>Contact</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-settings-label"><i class='bx bx-cog'></i> Settings</div>
+        <label class="theme-toggle sidebar-theme-toggle" for="theme-toggle">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Dark Mode</span>
+        </label>
+      </div>
+    </aside>
+
+    <aside class="navigation-sidebar glass-panel">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-mark">SN</span>
+          <span>Menu</span>
+        </div>
+        <label for="menu-toggle" class="sidebar-close-btn">
+          <i class='bx bx-x'></i>
+        </label>
+      </div>
+
+      <nav class="sidebar-nav-links">
+        <a href="index.html" class="sidebar-link"><i class='bx bx-home-alt-2'></i> <span>Home</span></a>
+        <a href="about.html" class="sidebar-link"><i class='bx bx-user'></i> <span>About</span></a>
+        <a href="skill.html" class="sidebar-link"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+        <a href="projects.html" class="sidebar-link"><i class='bx bx-folder'></i> <span>Projects</span></a>
+        <a href="journey.html" class="sidebar-link"><i class='bx bx-git-repo-forked'></i> <span>Journey</span></a>
+        <a href="index.html#contact" class="sidebar-link"><i class='bx bx-envelope'></i> <span>Contact</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-settings-label"><i class='bx bx-cog'></i> Settings</div>
+        <label class="theme-toggle sidebar-theme-toggle" for="theme-toggle">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Dark Mode</span>
+        </label>
+      </div>
+    </aside>
+
+    <main>
+
+              <section class="projects section-reveal" id="projects"><div class="section-heading"><p class="eyebrow">My recent work</p><h2>Featured projects with practical problem solving.</h2></div><div class="projects-grid"><article class="project-card"><div class="project-inner glass-panel"><div class="project-icon"><i class='bx bx-laptop'></i></div><div class="project-tags"><span>HTML</span><span>CSS</span></div><h3>Portfolio Website</h3><p>Responsive personal portfolio with multiple sections, social links, skill progress cards and a modern front-end layout.</p><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer">View Source <i class='bx bx-link-external'></i></a></div></article><article class="project-card"><div class="project-inner glass-panel"><div class="project-icon"><i class='bx bx-mail-send'></i></div><div class="project-tags"><span>Python</span><span>ML</span></div><h3>Email Spam Detection</h3><p>Machine learning project comparing Logistic Regression, KNN and Naive Bayes for spam classification.</p><a href="https://github.com/sharvarihnikam29/PYTHON/blob/main/spam.py" target="_blank" rel="noreferrer">View Source <i class='bx bx-link-external'></i></a></div></article><article class="project-card"><div class="project-inner glass-panel"><div class="project-icon"><i class='bx bx-credit-card'></i></div><div class="project-tags"><span>Python</span><span>OOP</span></div><h3>Online Banking System</h3><p>Banking simulation with account creation, balance inquiry, deposits, withdrawals, transfers and transaction history.</p><a href="https://github.com/sharvarihnikam29/Project/blob/main/Online%20Banking%20System" target="_blank" rel="noreferrer">View Source <i class='bx bx-link-external'></i></a></div></article><article class="project-card"><div class="project-inner glass-panel"><div class="project-icon"><i class='bx bx-car'></i></div><div class="project-tags"><span>Python</span><span>Files</span></div><h3>Parking Management System</h3><p>Vehicle parking management system for slot allocation, entry and exit tracking, charges and record handling.</p><a href="https://github.com/sharvarihnikam29/Parking-Management-System/blob/main/Parking-Management-System" target="_blank" rel="noreferrer">View Source <i class='bx bx-link-external'></i></a></div></article></div></section>
+</main>
+    <footer class="footer"><p>© 2026 Sharvari Nikam. Designed with HTML and CSS only.</p><div class="footer-socials"><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer">GitHub</a><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer">Instagram</a></div></footer>
+  </div>
+</body>
+</html>

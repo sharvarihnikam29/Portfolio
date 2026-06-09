@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharvari Nikam | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CSS-only dark/light mode toggle. -->
+<input class="theme-checkbox" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+  
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle Navigation Sidebar">
+  <label for="menu-toggle" class="sidebar-overlay"></label>
+
+  <div class="site-shell">
+    <header class="top-nav glass-panel">
+      
+      <div class="nav-left-group">
+        <label for="menu-toggle" class="hamburger-trigger" title="Open Menu">
+          <i class='bx bx-menu'></i>
+        </label>
+        
+        <a class="brand" href="#home">
+          <span class="brand-mark">SN</span>
+          <span>Sharvari Nikam</span>
+        </a>
+      </div>
+
+      <label class="theme-toggle" for="theme-toggle" title="Toggle dark mode">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        <span class="toggle-text">Theme</span>
+      </label>
+    </header>
+
+    <aside class="navigation-sidebar glass-panel">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-mark">SN</span>
+          <span>Menu</span>
+        </div>
+        <label for="menu-toggle" class="sidebar-close-btn">
+          <i class='bx bx-x'></i>
+        </label>
+      </div>
+
+      <nav class="sidebar-nav-links">
+        <a href="index.html" class="sidebar-link"><i class='bx bx-home-alt-2'></i> <span>Home</span></a>
+        <a href="about.html" class="sidebar-link"><i class='bx bx-user'></i> <span>About</span></a>
+        <a href="skill.html" class="sidebar-link"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+        <a href="projects.html" class="sidebar-link"><i class='bx bx-folder'></i> <span>Projects</span></a>
+        <a href="journey.html" class="sidebar-link"><i class='bx bx-git-repo-forked'></i> <span>Journey</span></a>
+        <a href="#contact" class="sidebar-link"><i class='bx bx-envelope'></i> <span>Contact</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-settings-label"><i class='bx bx-cog'></i> Settings</div>
+        <label class="theme-toggle sidebar-theme-toggle" for="theme-toggle">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Dark Mode</span>
+        </label>
+      </div>
+    </aside>
+
+    <main>
+      <section class="hero section-reveal" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Diploma Computer Engineering Student</p>
+          <h1>Sharvari Nikam</h1>
+          <p class="hero-text">I am Sharvari Nikam, an aspiring full stack developer from Pune with hands-on learning in HTML, CSS, Python, C, C++ and academic projects. I enjoy building responsive interfaces, solving coding problems and turning ideas into polished digital work.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="resume.pdf" download><i class='bx bx-download'></i>Download CV</a><a class="btn btn-secondary" href="#contact"><i class='bx bx-send'></i>Contact Me</a></div>
+          <div class="social-row"><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer" title="GitHub"><i class='bx bxl-github'></i></a><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" title="LinkedIn"><i class='bx bxl-linkedin'></i></a><a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer" title="Instagram"><i class='bx bxl-instagram'></i></a><a href="https://wa.me/917387793955" target="_blank" rel="noreferrer" title="WhatsApp"><i class='bx bxl-whatsapp'></i></a></div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-card glass-panel"><img src="Pic.jpeg" alt="Sharvari Nikam profile photo"><div class="status-pill"><i class='bx bx-sparkles'></i>Open to internships</div></div>
+          <div class="hero-stat top-stat glass-panel"><strong>2+</strong><span>Years of Learning</span></div><div class="hero-stat bottom-stat glass-panel"><strong>4</strong><span>Featured Projects</span></div>
+        </div>
+      </section>
+
+
+
+      <section class="contact section-reveal" id="contact"><div class="section-heading"><p class="eyebrow">Let us connect</p><h2>Have an internship, project or collaboration in mind?</h2></div><div class="contact-grid"><div class="contact-panel glass-panel"><h3>Contact details</h3><p>I am open to internships, beginner-friendly development work and learning opportunities.</p><a href="mailto:sharvarihnikam29@gmail.com"><i class='bx bx-envelope'></i>sharvarihnikam29@gmail.com</a><a href="https://wa.me/917387793955" target="_blank" rel="noreferrer"><i class='bx bxl-whatsapp'></i>WhatsApp</a><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer"><i class='bx bxl-github'></i>GitHub</a></div><form class="contact-form glass-panel" action="#" method="post"><label for="name">Name</label><input id="name" type="text" name="name" placeholder="Your name"><label for="email">Email</label><input id="email" type="email" name="email" placeholder="your@email.com"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me about your opportunity"></textarea><button class="btn btn-primary" type="submit"><i class='bx bx-paper-plane'></i>Send Message</button></form></div></section>
+    </main>
+    <footer class="footer"><p>© 2026 Sharvari Nikam. Designed with HTML and CSS only.</p><div class="footer-socials"><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer">GitHub</a><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer">Instagram</a></div></footer>
+  </div>
+</body>
+</html>
+

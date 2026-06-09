@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharvari Nikam | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CSS-only dark/light mode toggle. -->
+<input class="theme-checkbox" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+  
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle Navigation Sidebar">
+  <label for="menu-toggle" class="sidebar-overlay"></label>
+
+  <div class="site-shell">
+    <header class="top-nav glass-panel">
+      
+      <div class="nav-left-group">
+        <label for="menu-toggle" class="hamburger-trigger" title="Open Menu">
+          <i class='bx bx-menu'></i>
+        </label>
+        
+        <a class="brand" href="#home">
+          <span class="brand-mark">SN</span>
+          <span>Sharvari Nikam</span>
+        </a>
+      </div>
+
+      <label class="theme-toggle" for="theme-toggle" title="Toggle dark mode">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        <span class="toggle-text">Theme</span>
+      </label>
+    </header>
+
+    <aside class="navigation-sidebar glass-panel">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-mark">SN</span>
+          <span>Menu</span>
+        </div>
+        <label for="menu-toggle" class="sidebar-close-btn">
+          <i class='bx bx-x'></i>
+        </label>
+      </div>
+
+      <nav class="sidebar-nav-links">
+        <a href="index.html" class="sidebar-link"><i class='bx bx-home-alt-2'></i> <span>Home</span></a>
+        <a href="about.html" class="sidebar-link"><i class='bx bx-user'></i> <span>About</span></a>
+        <a href="skill.html" class="sidebar-link"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+        <a href="projects.html" class="sidebar-link"><i class='bx bx-folder'></i> <span>Projects</span></a>
+        <a href="journey.html" class="sidebar-link"><i class='bx bx-git-repo-forked'></i> <span>Journey</span></a>
+        <a href="#contact" class="sidebar-link"><i class='bx bx-envelope'></i> <span>Contact</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-settings-label"><i class='bx bx-cog'></i> Settings</div>
+        <label class="theme-toggle sidebar-theme-toggle" for="theme-toggle">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Dark Mode</span>
+        </label>
+      </div>
+    </aside>
+
+    <main>
+       <section class="skills section-reveal" id="skills">
+        <div class="section-heading centered"><p class="eyebrow">What I know</p><h2>Technical skills shaped through projects and practice.</h2></div>
+        <div class="skills-grid"><article class="skill-card glass-panel" style="--level:95%"><i class='bx bxl-html5'></i><h3>HTML5</h3><p>Semantic structure and accessible page layouts.</p><span><b></b></span><small>95%</small></article><article class="skill-card glass-panel" style="--level:90%"><i class='bx bxl-css3'></i><h3>CSS3</h3><p>Responsive layouts, animations and modern UI styling.</p><span><b></b></span><small>90%</small></article><article class="skill-card glass-panel" style="--level:80%"><i class='bx bxl-python'></i><h3>Python</h3><p>Logic building, automation and machine learning basics.</p><span><b></b></span><small>80%</small></article><article class="skill-card glass-panel" style="--level:75%"><i class='bx bx-code-curly'></i><h3>C++</h3><p>Programming fundamentals and object-oriented concepts.</p><span><b></b></span><small>75%</small></article><article class="skill-card glass-panel" style="--level:70%"><i class='bx bx-code'></i><h3>C</h3><p>Core programming, control flow and problem solving.</p><span><b></b></span><small>70%</small></article><article class="skill-card glass-panel" style="--level:72%"><i class='bx bx-data'></i><h3>MySQL</h3><p>Database concepts, records and basic queries.</p><span><b></b></span><small>72%</small></article></div>
+      </section>
+      </main>
+    <footer class="footer"><p>© 2026 Sharvari Nikam. Designed with HTML and CSS only.</p><div class="footer-socials"><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer">GitHub</a><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer">Instagram</a></div></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharvari Nikam | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input class="theme-checkbox" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+  
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle Navigation Sidebar">
+  <label for="menu-toggle" class="sidebar-overlay"></label>
+
+  <div class="site-shell">
+    <header class="top-nav glass-panel">
+      
+      <div class="nav-left-group">
+        <label for="menu-toggle" class="hamburger-trigger" title="Open Menu">
+          <i class='bx bx-menu'></i>
+        </label>
+        
+        <a class="brand" href="#home">
+          <span class="brand-mark">SN</span>
+          <span>Sharvari Nikam</span>
+        </a>
+      </div>
+
+      <label class="theme-toggle" for="theme-toggle" title="Toggle dark mode">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        <span class="toggle-text">Theme</span>
+      </label>
+    </header>
+
+    <aside class="navigation-sidebar glass-panel">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-mark">SN</span>
+          <span>Menu</span>
+        </div>
+        <label for="menu-toggle" class="sidebar-close-btn">
+          <i class='bx bx-x'></i>
+        </label>
+      </div>
+
+      <nav class="sidebar-nav-links">
+        <a href="index.html" class="sidebar-link"><i class='bx bx-home-alt-2'></i> <span>Home</span></a>
+        <a href="about.html" class="sidebar-link"><i class='bx bx-user'></i> <span>About</span></a>
+        <a href="skill.html" class="sidebar-link"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+        <a href="projects.html" class="sidebar-link"><i class='bx bx-folder'></i> <span>Projects</span></a>
+        <a href="journey.html" class="sidebar-link"><i class='bx bx-git-repo-forked'></i> <span>Journey</span></a>
+        <a href="#contact" class="sidebar-link"><i class='bx bx-envelope'></i> <span>Contact</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-settings-label"><i class='bx bx-cog'></i> Settings</div>
+        <label class="theme-toggle sidebar-theme-toggle" for="theme-toggle">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Dark Mode</span>
+        </label>
+      </div>
+    </aside>
+
+    <main>
+        <section class="about section-reveal" id="about">
+        <div class="section-heading"><p class="eyebrow">Get to know me</p><h2>Creative developer with a practical engineering mindset.</h2></div>
+        <div class="about-grid">
+          <article class="about-card glass-panel"><h3>A passionate developer based in India</h3><p>Hello! I am Sharvari Nikam, a Diploma Computer Engineering student with a strong interest in web development, programming and continuous learning. My goal is to become a skilled full stack developer and contribute to innovative projects.</p><p>Alongside technical work, I enjoy Kathak dance, painting and creative design, which helps me bring a thoughtful visual sense to my web interfaces.</p></article>
+          <div class="quick-facts"><div class="fact glass-panel"><i class='bx bx-user'></i><span>Name</span><strong>Sharvari Nikam</strong></div><div class="fact glass-panel"><i class='bx bx-envelope'></i><span>Email</span><strong>sharvari@example.com</strong></div><div class="fact glass-panel"><i class='bx bx-map'></i><span>Location</span><strong>Pune, India</strong></div><div class="fact glass-panel"><i class='bx bx-book-open'></i><span>Education</span><strong>Diploma in Computer Engineering</strong></div></div>
+        </div>
+        <div class="trait-grid"><article class="mini-card glass-panel"><i class='bx bx-star'></i><h3>Strengths</h3><p>Quick learner, problem solver, collaborative teammate and adaptable student.</p></article><article class="mini-card glass-panel"><i class='bx bx-bulb'></i><h3>Mindset</h3><p>Self-motivated, positive, growth-focused and always ready to learn.</p></article><article class="mini-card glass-panel"><i class='bx bx-palette'></i><h3>Creative Side</h3><p>Kathak dancer, painter and visual thinker with attention to detail.</p></article></div>
+      </section>
+    </main>
+    <footer class="footer"><p>© 2026 Sharvari Nikam. Designed with HTML and CSS only.</p><div class="footer-socials"><a href="https://github.com/sharvarihnikam29" target="_blank" rel="noreferrer">GitHub</a><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer">Instagram</a></div></footer>
+  </div>
+</body>
+</html>
